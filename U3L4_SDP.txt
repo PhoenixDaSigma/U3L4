@@ -1,0 +1,7 @@
+1. Finding the target number, or it can't split anymore.
+
+2. It repeatedly takes the usable half of the list back into the function.
+
+3. The initial pointer value is zero, but it changes if the right half of the list is the one being used. It changes to the first value of the list being used.
+
+4. It would only take four iterations, assuming the target isn't found until the last possible scenario. In an iteration search, if it has a higher number it will take more iterations.
